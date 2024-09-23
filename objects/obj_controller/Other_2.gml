@@ -4,8 +4,6 @@
 var window_width = room_width * 3;
 var window_height = room_height * 3;
 
-
-if os_type != os
 // Set the window size
 window_set_size(window_width, window_height);
 
