@@ -1,7 +1,7 @@
 global.hp = 100;
 global.spd = 1;
 global.level = 1;
-global.coins = 1000;
+global.coins = 100;
 
 spawn_amount = 5;
 spawn_count = 0;
