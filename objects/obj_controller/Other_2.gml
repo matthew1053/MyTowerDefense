@@ -19,5 +19,5 @@ global.upgrading = false;
 
 if os_type == os_html5 {
     // Adjust HTML5 specific settings here
-    display_set_gui_size((display_width - window_width) / 2, (display_height - window_height) / 2);
+    display_set_gui_size(800, 480);
 }
