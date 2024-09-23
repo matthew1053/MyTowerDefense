@@ -8,8 +8,8 @@ if(col == c_white && !placed)
 	var new_layer = layer_get_id("Instances");
 	layer_add_instance(new_layer, id)
 }
-else if (!global.upgrading) {
-	
+else if (!global.upgrading && !global.dragging) {
+		
 	var upgrade = instance_create_layer(x, y-85, "Upgrade", obj_tower_upgrade);
 	global.selected_tower = id;
 	
