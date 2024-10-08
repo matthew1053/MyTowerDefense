@@ -24,8 +24,9 @@ if os_browser != browser_not_a_browser {
 	var window_width = room_width * 2;
 	var window_height = room_height * 2;
 	
+	
 	window_set_position((display_width - window_width) / 2, (display_height - window_height) / 2);
-
+	
 	// Set the window size
 	window_set_size(window_width, window_height);
     display_set_gui_size(800, 480);

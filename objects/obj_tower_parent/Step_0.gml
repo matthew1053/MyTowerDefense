@@ -20,9 +20,12 @@ else {
 		if(cooldown <= 0)
 		{
 			var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
+			
+			audio_play_sound(snd_tower_shooting, 1, false);
 	
 			bullet.speed = bullet_speed;
 			bullet.damage = damage;
+			//show_debug_message("damage sent to bullet: " + string(damage) + " bullet " + string(bullet.damage));
 			bullet.direction = point_direction(x, y, objectToShoot.x, objectToShoot.y);
 	
 			cooldown = fire_rate;

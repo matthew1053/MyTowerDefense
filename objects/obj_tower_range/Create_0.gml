@@ -3,7 +3,7 @@ bullet_speed = 10;
 
 cost = obj_tower_range_c.cost;
 range = obj_tower_range_c.range;
-damage = obj_tower_range_c.range;
+damage = obj_tower_range_c.damage;
 
 shooting = false;
 objectToShoot = noone;

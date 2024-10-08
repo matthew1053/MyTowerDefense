@@ -13,8 +13,8 @@
   "name":"obj_upgrade_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Upgrade",
+    "path":"folders/Objects/Upgrade.yy",
   },
   "parentObjectId":null,
   "persistent":false,
