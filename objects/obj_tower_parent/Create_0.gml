@@ -1,6 +1,6 @@
 // Change per tower
 fire_rate = room_speed / 3;
-bullet_speed = 20;
+bullet_speed = 10;
 
 damage = obj_tower_basic_c.damage;
 cost = obj_tower_basic_c.cost;
